@@ -104,7 +104,7 @@ int main() {
 
     cout << endl << "Seleccione una opcion para llenar su arreglo: \n" << endl;
     cout << "1. Automático (números entre 100 y 200)" << endl;
-    cout << "2. Manual (números entre 0 y 99)" << endl;
+    cout << "2. Manual (números entre 0 y 99)" << endl << endl;
     cin >> opcion;
 
     if (opcion == 1) {
