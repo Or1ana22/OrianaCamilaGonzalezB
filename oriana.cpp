@@ -136,7 +136,7 @@ int main() {
         }
     }
     if (hay_pares) {
-        cout << "Los numeros pares en el arreglo son: ";
+        cout << endl << "Los numeros pares en el arreglo son: ";
         imprimir_pares(arreglo, n);
     } else {
         cout << "No hay numeros pares en el arreglo." << endl;
@@ -150,13 +150,13 @@ int main() {
         }
     }
     if (hay_primos) {
-        cout << "Los numeros primos en el arreglo son: ";
+        cout << endl << "Los numeros primos en el arreglo son: ";
         imprimir_primos(arreglo, n);
     } else {
         cout << "No hay numeros primos en el arreglo." << endl;
     }
 
-    cout << "El número mayor en el arreglo es: " << encontrar_mayor(arreglo, n) << endl;
+    cout << endl << "El número mayor en el arreglo es: " << encontrar_mayor(arreglo, n) << endl;
 
     ordenar_arreglo(arreglo, n);
     cout << "Arreglo ordenado de menor a mayor: \n";
