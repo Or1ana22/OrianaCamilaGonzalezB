@@ -120,7 +120,7 @@ int main() {
         cout << "Opcion invalida." << endl;
         return 0;
     }
-    cout << "Arreglo generado por el for: \n";
+    cout << endl << "Arreglo generado por el for: \n";
     imprimir_con_for(arreglo, n);
 
     cout << "Arreglo generado por el while: \n";
