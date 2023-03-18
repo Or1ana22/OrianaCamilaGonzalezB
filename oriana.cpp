@@ -136,7 +136,7 @@ int main() {
         }
     }
     if (hay_pares) {
-        cout << endl << "Los numeros pares en el arreglo son: ";
+        cout << endl << "Los numeros pares en el arreglo son: \n";
         imprimir_pares(arreglo, n);
     } else {
         cout << endl << "No hay numeros pares en el arreglo." << endl;
